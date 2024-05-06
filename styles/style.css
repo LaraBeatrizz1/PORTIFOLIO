@@ -122,6 +122,7 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
     gap: 16px;
     text-align: center;
     font-family: 'Rowdies', sans-serif;
