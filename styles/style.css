@@ -177,6 +177,34 @@ body{
    font-size: 90px;
 }
 
+.projetos__links {
+    justify-content: space-between;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.projetos__links__link {
+   justify-content: center;
+    gap: 16px;
+    border: 2px solid #FF577F;
+    width: 24%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.projetos__links__link:hover {
+    background-color: #272727;
+}
+
  .rodape{
     color: var(--cor-primaria);
     background-color: #614051;
